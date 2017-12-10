@@ -27,12 +27,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView currentGameScoreBTextView = (TextView) findViewById(R.id.current_game_score_b);
-        TextView currentGameScoreATextView = (TextView) findViewById(R.id.current_game_score_a);
-        TextView gameScoreATextView = (TextView) findViewById(R.id.game_score_a);
-        TextView gameScoreBTextView = (TextView) findViewById(R.id.game_score_b);
-        TextView setScoreATextView = (TextView) findViewById(R.id.set_score_a);
-        TextView setScoreBTextView = (TextView) findViewById(R.id.set_score_b);
+        TextView currentGameScoreBTextView =  findViewById(R.id.current_game_score_b);
+        TextView currentGameScoreATextView =  findViewById(R.id.current_game_score_a);
+        TextView gameScoreATextView =  findViewById(R.id.game_score_a);
+        TextView gameScoreBTextView =  findViewById(R.id.game_score_b);
+        TextView setScoreATextView =  findViewById(R.id.set_score_a);
+        TextView setScoreBTextView =  findViewById(R.id.set_score_b);
         displayCurrentPointA = currentGameScoreATextView;
         displayCurrentPointB = currentGameScoreBTextView;
         displayGameA = gameScoreATextView;
