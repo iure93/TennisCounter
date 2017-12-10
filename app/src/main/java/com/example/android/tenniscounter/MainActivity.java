@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         displayGameB = gameScoreBTextView;
         displaySetA = setScoreATextView;
         displaySetB = setScoreBTextView;
+
         if (savedInstanceState != null) {
             pointA = savedInstanceState.getInt("pointA");
             pointB = savedInstanceState.getInt("pointB");
