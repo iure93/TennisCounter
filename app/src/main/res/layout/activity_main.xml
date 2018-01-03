@@ -56,7 +56,6 @@
                 android:textColor="#FFFFFF"
                 android:textSize="40sp" />
 
-            \\rifai linearLayaout orizzontale con i vari tasti
 
             <LinearLayout
                 android:layout_width="match_parent"
