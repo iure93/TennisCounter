@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Tennis Counter</string>
+    <string name="player1">Federer</string>
+    <string name="Player2">Nadal</string>
 </resources>
